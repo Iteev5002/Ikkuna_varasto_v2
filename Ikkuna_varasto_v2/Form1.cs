@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace Ikkuna_varasto_v2 // Varmista että tämä on sama kaikkialla
+namespace Ikkuna_varasto_v2
 {
 	public partial class Form1 : Form
 	{

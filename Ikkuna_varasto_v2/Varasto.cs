@@ -37,8 +37,7 @@ namespace Ikkuna_varasto_v2
 				try
 				{
 					string json = File.ReadAllText(tiedosto);
-					// Huom: Monimutkaisemmassa perinnässä tarvittaisiin kustomoitu konvertteri,
-					// mutta tässä tapauksessa yksinkertaisin tapa on varmistaa tyyppien tunnistus.
+
 					_items = JsonSerializer.Deserialize<List<Item>>(json) ?? new List<Item>();
 				}
 				catch { _items = new List<Item>(); }

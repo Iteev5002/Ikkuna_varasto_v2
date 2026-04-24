@@ -4,7 +4,7 @@
 	{
 		private System.ComponentModel.IContainer components = null;
 
-		// CS0115 korjaus: override vaatii, että luokka perii Form-luokan (toteutuu Form1.cs puolella)
+
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && (components != null))

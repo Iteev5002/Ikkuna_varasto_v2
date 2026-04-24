@@ -21,9 +21,7 @@ namespace Ikkuna_varasto_v2
 			// Käytetään ToList(), jotta näkymä on staattinen kopio
 			dataGridView1.DataSource = varasto._items.ToList();
 
-			// Jos haluat näyttää Kilometrit-sarakkeen vain jos listassa on autoja,
-			// DataGridView luo ne automaattisesti jos ne ovat Item-luokassa, 
-			// mutta perityt kentät (Kilometrit) eivät välttämättä näy ilman kustomointia.
+
 		}
 
 		private void poistaNappi_Click(object sender, EventArgs e)

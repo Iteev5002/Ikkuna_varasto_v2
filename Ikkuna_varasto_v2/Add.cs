@@ -31,7 +31,7 @@ namespace Ikkuna_varasto_v2
 				return;
 			}
 
-			// Validointi: Tarkistetaan onko luvut oikein
+
 			if (!int.TryParse(tuote_maara.Text, out int maara) ||
 				!int.TryParse(vuosi.Text, out int valmistus) ||
 				!float.TryParse(tuote_hinta.Text, out float hinta))
