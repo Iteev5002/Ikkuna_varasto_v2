@@ -44,12 +44,12 @@ namespace Ikkuna_varasto_v2
 			dataGridView1.Name = "dataGridView1";
 			dataGridView1.RowHeadersWidth = 51;
 			dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-			dataGridView1.Size = new Size(580, 280);
+			dataGridView1.Size = new Size(680, 280);
 			dataGridView1.TabIndex = 0;
 			// 
 			// poistaNappi
 			// 
-			poistaNappi.Location = new Point(480, 310);
+			poistaNappi.Location = new Point(584, 310);
 			poistaNappi.Name = "poistaNappi";
 			poistaNappi.Size = new Size(115, 35);
 			poistaNappi.TabIndex = 1;
